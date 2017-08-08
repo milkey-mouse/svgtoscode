@@ -36,7 +36,7 @@ def convert(paths, attributes, viewbox):
                 yield ("FILL", *DEFAULT_COLOR)
 
 if len(sys.argv) < 2:
-    print("usage: svg2paths [svg]")
+    print("usage: svgtoscode [svg]")
     sys.exit(1)
 
 *svg, svg_attributes = svg2paths2(sys.argv[1])
